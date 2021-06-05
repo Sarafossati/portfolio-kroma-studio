@@ -56,6 +56,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
+.sections{
+  transition: box-shadow .3s;  
+}
+
+.sections:hover{
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(33,33,33,.2);
+  
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -953,4 +963,56 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Single page Portfolio
+--------------------------------------------------------------*/
+
+.container-logo img{
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.p-box{
+  width: 70%;
+  text-align: center;
+  font-family: 'Poppins';
+  display: block;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.feed img{
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.box-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 50px;
+  margin-top: 50px;
+}
+
+.box-img img{
+  width: 400px;
+  height: auto;
+  margin: 20px;
+}
+
+video{
+  margin: 0 50px;
+  border: 10px solid #eb671a;
+  margin-bottom: 50px;
 }
