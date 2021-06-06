@@ -1016,3 +1016,39 @@ video{
   border: 10px solid #eb671a;
   margin-bottom: 50px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .single-page-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-img img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .feed img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .container-logo img{
+    max-width: 300px;
+  }
+
+  video{
+    width: 80%;
+    height: auto;
+  }
+
+}
