@@ -972,10 +972,21 @@ section {
 --------------------------------------------------------------*/
 
 .container-logo img{
-  max-width: 500px;
+  max-width: 600px;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.border-logo{
+  /* border: 5px solid #eb671a; */
+  width: 350px;
+  height: auto;
+}
+
+.border-logo:hover{
+  transform: scale(1.1);
+  background-color: #fdfcfc;
 }
 
 .p-box{
