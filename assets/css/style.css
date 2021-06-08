@@ -986,7 +986,6 @@ section {
 
 .border-logo:hover{
   transform: scale(1.1);
-  background-color: #fdfcfc;
 }
 
 .p-box{
@@ -1028,6 +1027,18 @@ video{
   margin-bottom: 50px;
 }
 
+.box-container-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box-container-section div{
+  margin: 0 20px;
+}
+
 
 @media screen and (max-width: 768px) {
   .single-page-main {
@@ -1057,9 +1068,17 @@ video{
     max-width: 300px;
   }
 
+  .container-logo{
+    margin-bottom: 30px !important;
+  }
+
   video{
     width: 80%;
     height: auto;
+  }
+
+  .box-container-section .row{
+    margin-top: 0 !important;
   }
 
 }
